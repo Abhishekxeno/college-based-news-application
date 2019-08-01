@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "993411897923",
+    "firebase_url": "https://siddharthdwivedi-4231c.firebaseio.com",
+    "project_id": "siddharthdwivedi-4231c",
+    "storage_bucket": "siddharthdwivedi-4231c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:993411897923:android:5f70d09237b1651c",
+        "android_client_info": {
+          "package_name": "com.siddharthdwivedi.smartnews"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "993411897923-efr393fu9q49dejk3d35oh6igf0vo8sv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQfOz8AZ_POo_4p0IZDtGCl1TH1EsqWFo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

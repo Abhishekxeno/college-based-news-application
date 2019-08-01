@@ -1,0 +1,46 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 27
+    buildToolsVersion '27.0.3'
+
+    defaultConfig {
+        applicationId "com.siddharthdwivedi.smartnews"
+        minSdkVersion 15
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.android.support:appcompat-v7:25.+'
+    implementation 'com.jakewharton:butterknife:7.0.1'
+    implementation 'com.android.support:recyclerview-v7:25.+'
+    implementation 'com.android.support:design:25.+'
+    implementation 'com.squareup.retrofit:retrofit:1.9.0'
+    implementation 'com.squareup.picasso:picasso:2.5.2'
+    implementation 'com.google.firebase:firebase-ads:9.6.0'
+    implementation 'com.google.firebase:firebase-analytics:9.6.0'
+    implementation 'com.android.support:support-v4:25.+'
+    testImplementation 'junit:junit:4.12'
+    implementation 'com.google.firebase:firebase-messaging:9.6.0'
+    implementation 'com.google.firebase:firebase-core:9.6.0'
+    implementation 'com.android.support:cardview-v7:25.+'
+
+    implementation 'com.google.android.gms:play-services-maps:9.6.0'
+    implementation 'com.google.android.gms:play-services-location:9.6.0'
+
+    annotationProcessor 'com.jakewharton:butterknife:7.0.1'
+
+
+}
+
+apply plugin: 'com.google.gms.google-services'
